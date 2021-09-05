@@ -2,7 +2,7 @@
 
 A library for compressing and decompressing Yaz0/Yaz1.
 
-A port of [libyaz0](https://github.com/aboood40091/libyaz0) by MasterVermilli0n / AboodXD
+A port of [libyaz0](https://github.com/aboood40091/libyaz0) by MasterVermilli0n/AboodXD
 
 # Build
 

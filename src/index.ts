@@ -223,11 +223,13 @@ export function decompressYaz0(data: Buffer): Buffer {
  * Read a file from a path and compress it with Yaz0.
  *
  * @param path The filepath
+ * @param alignment=0 The alignment
+ * @param level=0 The compression level
  * @returns {string} The output path. Filename: filename + '.compressed' + original file extension
  */
-export function compressYaz0File(path: string): string {
+export function compressYaz0File(path: string, alignment = 0, level = 0): string {
     const data = fs.readFileSync(path);
-    const compressed = compressYaz0(data);
+    const compressed = compressYaz0(data, alignment, level);
     const output = path.replace(/\.[^/.]+$/, "") + ".compressed" + path.substr(path.lastIndexOf("."));
     fs.writeFileSync(output, compressed);
 
