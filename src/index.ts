@@ -1,6 +1,6 @@
 /*
  This is a js library to handle Yaz0/Yaz1 compression and decompression.
- Ported from Python's libyaz0, by MasterVermilli0n / AboodXD
+ Ported from Python's libyaz0, by MasterVermilli0n/AboodXD
  */
 
 import * as fs from "fs";
