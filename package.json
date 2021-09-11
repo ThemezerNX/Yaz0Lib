@@ -1,6 +1,6 @@
 {
     "name": "@themezernx/yaz0lib",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "A library for compressing and decompressing Yaz0/Yaz1.",
     "repository": "https://github.com/ThemezerNX/Yaz0Lib.git",
     "author": "Migush",
