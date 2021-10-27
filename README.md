@@ -1,4 +1,5 @@
 # Yaz0Lib
+[![npm version](https://badge.fury.io/js/@themezernx%2Fyaz0lib.svg)](https://badge.fury.io/js/@themezernx%2Fyaz0lib)
 
 A library for compressing and decompressing Yaz0/Yaz1.
 
